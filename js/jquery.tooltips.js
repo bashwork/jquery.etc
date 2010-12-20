@@ -1,7 +1,10 @@
 /**
- * jQuery Tooltips (again...)
+ * @summary jQuery Tooltips (again...)
  * @author bashwork at gmail dot com
  * @license Steal and be happy
+ *
+ * Really just wanted to see if I could make a cleaner
+ * looking plugin.
  */
 (function($) {
 

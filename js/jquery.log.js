@@ -1,9 +1,8 @@
-/*
- * global flag for jquery logging
- */
-window.DEBUG = true;
-
 /**
+ * @summary A simple message bus implementation
+ * @author bashwork at gmail dot com
+ * @license Steal and be happy
+ *
  * Logs the passed in message to the browser log. This
  * will support chrome as well as firebug while right
  * now defaulting to just not logging the messages.

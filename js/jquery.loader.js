@@ -1,4 +1,8 @@
 /**
+ * @summary A page initializer
+ * @author bashwork at gmail dot com
+ * @license Steal and be happy
+ *
  * Original ideas from:
  * - http://paulirish.com/2009/markup-based-unobtrusive-comprehensive-dom-ready-execution/
  * - http://www.viget.com/inspire/extending-paul-irishs-comprehensive-dom-ready-execution/
@@ -58,4 +62,23 @@ var Loader = {
     Loader.fire([Loader.settings.common], Loader.settings.finalize);
   }
 };
-jQuery(document).ready(Loader.load);
+
+/**
+ * Do something like this in your base template so
+ * you can perform configuration of the js blocks
+ * before you call load:
+ * 
+ * <script type='text/javascript'>
+ * {% block loader-config %}{% endblock %}
+ * jQuery(Loader.load);
+ * </script>
+ *
+ * And in your derived templates:
+ * {% block loader-config %}
+ *
+ * $.extend(website.user.edit.config, {
+ *   message = "{{ user }}, your page has been saved!"
+ * });
+ *
+ * {% endblock %}
+ */

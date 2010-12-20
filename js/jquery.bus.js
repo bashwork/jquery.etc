@@ -1,5 +1,5 @@
 /**
- * A quick bus hacked on top of jQuery's events framework
+ * @summary A quick bus hacked on top of jQuery's events framework
  * @author bashwork at gmail dot com
  * @license Steal and be happy
  *

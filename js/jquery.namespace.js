@@ -1,5 +1,5 @@
 /**
- * A quick helper to define namespaces
+ * @summary A quick helper to define namespaces
  * @author bashwork at gmail dot com
  * @license Steal and be happy
  */
