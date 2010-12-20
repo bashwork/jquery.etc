@@ -1,0 +1,26 @@
+/* tooltip element styles
+----------------------------------------------------------------------*/
+.tooltip {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    left: 5px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 5px;
+    z-index: 9999
+}
+.tooltip-arrow {
+	position:absolute;
+	background: url(../img/tooltip.gif) top left no-repeat
+	width: 9px;
+	height: 5px;
+}
+.gravity-s  .tooltip-arrow { top:-14%; left: 50%; }
+.gravity-sw .tooltip-arrow { top:-14%; left:  5%; }
+.gravity-se .tooltip-arrow { top:-14%; left: 85%; }
+.gravity-n  .tooltip-arrow { top:100%; left: 50%; background-position: bottom left; }
+.gravity-nw .tooltip-arrow { top:100%; left:  5%; background-position: bottom left; }
+.gravity-ne .tooltip-arrow { top:100%; left: 85%; background-position: bottom left; }
+.gravity-e  .tooltip-arrow { top: 45%; left:100%; background-position: top right; width:5px; height: 9px; }
+.gravity-w  .tooltip-arrow { top: 45%; left: -4%; background-position: top left;  width:5px; height: 9px; }
